@@ -1,0 +1,283 @@
+.work-sans-bold {
+  font-family: "Work Sans", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 700;
+  font-style: normal;
+}
+
+.work-sans-semibold{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.work-sans-medium {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.work-sans-redular {
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Styles */
+
+
+.display-flex{
+    display: flex;
+}
+
+.dark-01{
+    color: #131313;
+}
+
+.dark-02{
+   color: #424242;
+}
+
+.dark-03{
+    color: #727272
+}
+
+.primary-color-01{
+    color: rgba(255, 255, 255, 1);
+}
+
+button a{
+    text-decoration: none;
+
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+
+
+}
+
+
+/* nav styles */
+.nav-bar{
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.nav-title{
+    font-size: 2.8125rem;
+    line-height: auto;
+    letter-spacing: 0%;
+}
+
+nav>ul>li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+#last-nav-li{
+    margin-right: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #424242;
+    font-size:1.125rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.nav-bar, .banner{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/* banner styles */
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.banner-title{
+    font-size:4rem;
+    line-height: auto;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+.banner-description{
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-bottom: 32px;
+}
+
+.banner-content{
+    max-width: 680px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.banner-img{
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* team related styles */
+.team{
+    
+    margin-top: 85px;
+    
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 70px;   
+
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19.2px;
+}
+
+.img-container img{
+    max-width: 273.6px;
+    
+}
+
+.team-content{
+    margin-right: 61px;
+    max-width: 1200px;
+    align-content: center;
+    
+}
+
+#team-title-span1{
+   font-size:2.8125rem; 
+
+}
+
+#team-title-span2{
+    font-size:2.8125rem;
+    
+}
+
+#team-title-span3{
+    color: rgba(255, 144, 14, 1);
+    font-size: 2.8125rem;
+}
+
+.team-description {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: auto;
+    margin-top: 19px;
+    margin-bottom: 25.6px;
+}
+
+/* /* feure styles */
+.feature{
+   
+    margin-bottom: 144px;
+}
+
+.feature-container{
+    
+     margin: 0 auto;
+    max-width: 80%;
+}
+
+.feature-card-container{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.feture-title{
+    font-size: 2.90rem;
+    line-height: auto;
+    letter-spacing: 0%;
+    margin-top: 130px;
+    margin-bottom: 19px;
+}
+
+.feature-description{
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-bottom: 80px;
+    max-width: 440px;
+    
+}
+
+.feature-card{
+    
+    border: solid 1.8px rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    max-width: 193px;
+    max-height: 193px;
+    padding: 30px 30px;
+    
+    
+}
+
+.feature-card img{
+    width: 40px;
+    height: 40px;
+}
+
+.card-content{
+    height: 133px;
+    width: 136px;
+    text-align: center;
+}
+
+.feature-card h5{
+    font-size: 2.80rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.feature-card p{
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+
+    nav>ul{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .team-container{
+        
+        grid-template-columns:repeat(1, 1fr);
+    }
+
+    .img-container{
+        grid-template-columns: 1fr;
+        
+    }
+}
