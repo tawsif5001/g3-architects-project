@@ -379,4 +379,8 @@ footer p{
     .feature h3,p{
         text-align: center;
     }
+
+    footer{
+    width: 80%;
+    }
 }
