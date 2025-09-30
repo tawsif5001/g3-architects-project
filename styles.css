@@ -539,7 +539,9 @@ footer p{
         text-align: justify;
     }
 
-    .experience-button p{
+    .experience-button p, .feature-card p{
         text-align: center ;
     }
+
+    
 }
